@@ -19,7 +19,7 @@ class PersonDetailFactory extends Factory
         return [
             'phone' => fake() -> phoneNumber(),
             'address' => fake() -> streetAddress(),
-            'avatar' => fake() -> null,
+
         ];
     }
 }
