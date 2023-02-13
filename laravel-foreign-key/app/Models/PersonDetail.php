@@ -9,7 +9,7 @@ class PersonDetail extends Model
 {
     use HasFactory;
 
-    private $fillable = [
+    protected $fillable = [
         'phone',
         'address',
         'avatar',
